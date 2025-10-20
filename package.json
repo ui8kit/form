@@ -1,0 +1,43 @@
+{
+  "name": "@ui8kit/form",
+  "version": "0.0.1-alpha.1",
+  "description": "A collection of form for React Apps - 8px grid system components",
+  "homepage": "https://ui.buildy.tw",
+  "license": "MIT",
+  "author": "ui8kit",
+  "type": "module",
+  "keywords": [
+    "frontend",
+    "form",
+    "library",
+    "tailwind",
+    "utility-first",
+    "semantic",
+    "react",
+    "react-form",
+    "form"
+  ],
+  "sideEffects": false,
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src/**/*",
+    "tsconfig.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "repository": {
+    "url": "https://github.com/ui8kit/form.git",
+    "type": "git"
+  },
+  "peerDependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "dependencies": {
+    "react-hook-form": "^7.62.0"
+  }
+}
