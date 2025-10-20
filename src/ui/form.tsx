@@ -115,7 +115,7 @@ function FormControl({ children }: { children: React.ReactElement }) {
 
   return React.cloneElement(children, {
     ...controlProps,
-    ...children.props,
+    ...(children as React.ReactElement<any>).props,
   })
 }
 

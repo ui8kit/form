@@ -25,5 +25,3 @@ export function makeSchemaTransport(schema: SchemaModule) {
     ItemFieldOrder: schema.ItemFieldOrder,
   } as const;
 }
-
-

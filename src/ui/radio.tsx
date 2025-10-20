@@ -1,6 +1,5 @@
 import * as React from "react"
 
-
 const Radio = React.forwardRef<HTMLInputElement, React.ComponentProps<"input">>(({ className, ...props }, ref) => {
   return (
     <input
@@ -25,5 +24,3 @@ function RadioGroup({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 export { Radio, RadioGroup }
-
-

@@ -1,6 +1,5 @@
 import * as React from "react"
 
-
 type SwitchProps = Omit<React.ComponentProps<"input">, "type">
 
 const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(({ className, ...props }, ref) => {
@@ -26,5 +25,3 @@ const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(({ className, ...
 })
 
 export { Switch }
-
-

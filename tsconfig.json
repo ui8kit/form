@@ -15,17 +15,10 @@
     "declaration": true,
     "declarationDir": "./dist",
     "outDir": "./dist",
-    "rootDir": ".",
+    "rootDir": "./src",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
-      "@/form": ["./src/index"],
-      "@/form/*": ["./src/*"],
-      "@ui8kit/core": ["../core/src/index"],
-      "@ui8kit/core/*": ["../core/src/*"]
+      "@/*": ["./src/*"]
     }
-  },
-  "references": [
-    { "path": "../core" }
-  ]
+  }
 }
