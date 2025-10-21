@@ -1,10 +1,11 @@
 import * as React from "react"
+import { cn } from "../lib/utils"
 
 type SwitchProps = Omit<React.ComponentProps<"input">, "type">
 
 const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(({ className, ...props }, ref) => {
   return (
-    <label data-class="switch" className={["inline-flex items-center gap-2", className].filter(Boolean).join(" ")}>
+    <label data-class="switch" className={cn(["inline-flex items-center gap-2"])}>
       <input
         type="checkbox"
         ref={ref}
@@ -13,11 +14,11 @@ const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(({ className, ...
       />
       <span
         aria-hidden
-        className={"relative inline-flex h-5 w-9 items-center rounded-full border border-input bg-input/50 transition-colors peer-checked:[&>span]:translate-x-4 peer-disabled:opacity-50 peer-focus-visible:ring-[3px] peer-focus-visible:ring-ring/50 peer-focus-visible:border-ring peer-aria-invalid:ring-destructive/20 peer-aria-invalid:border-destructive"}
+        className={cn(["relative inline-flex h-5 w-9 items-center rounded-full border border-input bg-input/50 transition-colors peer-checked:[&>span]:translate-x-4 peer-disabled:opacity-50 peer-focus-visible:ring-[3px] peer-focus-visible:ring-ring/50 peer-focus-visible:border-ring peer-aria-invalid:ring-destructive/20 peer-aria-invalid:border-destructive", className])}
       >
         <span
         aria-hidden
-          className={"absolute left-0.5 h-4 w-4 rounded-full bg-background shadow-xs transition-transform"}
+          className={cn(["absolute left-0.5 h-4 w-4 rounded-full bg-background shadow-xs transition-transform"])}
         />
       </span>
     </label>
