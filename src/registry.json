@@ -1,0 +1,186 @@
+{
+  "$schema": "https://buildy.tw/schema/registry.json",
+  "items": [
+    {
+      "name": "textarea",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [
+        "react"
+      ],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/textarea.tsx",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "table",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [
+        "react"
+      ],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/table.tsx",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "switch",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [
+        "react"
+      ],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/switch.tsx",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "select",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [
+        "react"
+      ],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/select.tsx",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "radio",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [
+        "react"
+      ],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/radio.tsx",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "label",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [
+        "react"
+      ],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/label.tsx",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "input",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [
+        "react"
+      ],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/input.tsx",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "form",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [
+        "react",
+        "react-hook-form"
+      ],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/form.tsx",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "checkbox",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [
+        "react"
+      ],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/checkbox.tsx",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "schema-transport",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/auto/schema-transport.ts",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "auto-fields",
+      "type": "registry:ui",
+      "description": "",
+      "dependencies": [],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/ui/auto/auto-fields.tsx",
+          "target": "ui"
+        }
+      ]
+    },
+    {
+      "name": "utils",
+      "type": "registry:lib",
+      "description": "",
+      "dependencies": [
+        "clsx",
+        "tailwind-merge"
+      ],
+      "devDependencies": [],
+      "files": [
+        {
+          "path": "src/lib/utils.ts",
+          "target": "lib"
+        }
+      ]
+    }
+  ],
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-21T19:30:27.714Z",
+  "registry": "form"
+}
